@@ -9,12 +9,15 @@ This script reads the authority record of an author (in this case Aristotle) ​
 3) prints the bibliographic works linked to the author directly or indirectly (first author or other elements of bibliographic description);
 
 Requirements: 
+
   -Python 3.x.x
 
 Dependencies: 
+
   - pip install requests SPARQLWrapper
 
 How to use it: 
+
   -python bib_auth.py
 
 ENJOY !
