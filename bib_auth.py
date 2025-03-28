@@ -32,9 +32,9 @@ viaf_id_aristotle = "7524651"
 
 books_from_viaf = find_books_by_viaf(viaf_id_aristotle)
 
-print("Libri trovati per Aristotele su Wikidata (tramite VIAF):")
+print("Records found for Aristotle on Wikidata (via VIAF):")
 for result in books_from_viaf:
-    print(f"Libro: {result['bookLabel']['value']}")
+    print(f"Title (or wikidata ID): {result['bookLabel']['value']}")
 
 #In case needed also VIAF records
 #viaf_data = get_viaf_data(viaf_id_aristotle)
