@@ -38,7 +38,7 @@ for result in books_from_viaf:
 
 #viaf_data = get_viaf_data(viaf_id_aristotle)
 #if viaf_data:
-#    print("\nDati VIAF di Aristotele:") hfkkfak
+#    print("\nDati VIAF di Aristotele:")
 #   print(viaf_data) 
 
 
