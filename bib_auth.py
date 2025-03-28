@@ -23,7 +23,7 @@ def find_books_by_viaf(viaf_id):
     WHERE {{
         ?author wdt:P214 "{viaf_id}".
         ?book wdt:P50 ?author.
-        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it". }}
+        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
     }}
     """
     return sparql_query(query)
@@ -36,9 +36,10 @@ print("Libri trovati per Aristotele su Wikidata (tramite VIAF):")
 for result in books_from_viaf:
     print(f"Libro: {result['bookLabel']['value']}")
 
+#In case needed also VIAF records
 #viaf_data = get_viaf_data(viaf_id_aristotle)
 #if viaf_data:
-#    print("\nDati VIAF di Aristotele:")
+#    print("\nAristotle's VIAF records:")
 #   print(viaf_data) 
 
 
