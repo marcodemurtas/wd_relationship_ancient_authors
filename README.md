@@ -10,6 +10,6 @@ This script reads the authority record of an author (in this case Aristotle) ​
 
 Requirements: Python 3.x.x
 
-How to use it: python bib.auth.py
+How to use it: python bib_auth.py
 
 ENJOY !
