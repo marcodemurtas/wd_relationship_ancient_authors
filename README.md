@@ -4,7 +4,7 @@ This script reads the authority record of an author (in this case Aristotle) ​
 
 1) reading authority ID on native database;
 
-2) queries the Wikidata dataset with a SPARQL query to find the corresponding author;
+2) queries the Wikidata dataset with a SPARQL query to find the corresponding author and his bibliographic links;
 
 3) prints the bibliographic works linked to the author directly or indirectly (first author or other elements of bibliographic description);
 
